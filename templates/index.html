@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>LinkTree</title>
+<link href="{{url_for('static', filename= 'style.css') }}" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <ul class="background">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="content">
+        <!-- Profile Pic -->
+        <img class="profile-pic" src="{{ url_for('static' , filename='avataaars.png') }}">
+            
+        <!--Profile Name -->
+        <div class="profile-name">
+            Amir Cornelius (ACorn)
+        </div>
+        
+        <!-- Links -->
+        <a href="https://www.a-corn.dev/index.html" class="links">
+        Portfolio Website
+        </a>
+        <a href="https://acornweekly.wordpress.com/" class="links">
+        Blog
+        </a>
+        <a href="https://www.linkedin.com/in/a-corn0224" class="links">
+        LinkedIn
+        </a>
+        <a href="https://github.com/A-Corn" class="links">
+        GitHub
+        </a>
+        <a href="https://replit.com/@A-Corn" class="links">
+        Repl.it
+        </a>
+        <a href="https://twitter.com/a_corn24" class="links">
+        Twitter
+        </a>
+    </div>
+</body>
